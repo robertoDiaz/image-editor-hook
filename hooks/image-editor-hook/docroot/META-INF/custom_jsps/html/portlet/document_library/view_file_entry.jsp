@@ -1083,7 +1083,8 @@ if (!portletId.equals(PortletKeys.TRASH)) {
 
 <aui:script use="aui-image-editor">
 	var imageEditor = new A.ImageEditor({
-		srcNode: '.lfr-preview-file-image-container'
+		srcNode: '.lfr-preview-file-image-container',
+		imageType: '<%= fileEntry.getMimeType() %>'
 	}).render();
 
 	A.one('#<portlet:namespace />saveButton').on('click', function(event) {
