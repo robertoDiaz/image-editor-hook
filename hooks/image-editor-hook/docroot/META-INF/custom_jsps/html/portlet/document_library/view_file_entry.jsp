@@ -1088,7 +1088,7 @@ if (!portletId.equals(PortletKeys.TRASH)) {
 
 	A.one('#<portlet:namespace />saveButton').on('click', function(event) {
 		A.one('#<portlet:namespace />blob').val(imageEditor.getImageData());
-		submitForm(document.<portlet:namespace />fm);
+		submitForm(document.<portlet:namespace />fm3);
 	});
 </aui:script>
 
