@@ -1104,39 +1104,39 @@ private static Log _log = LogFactoryUtil.getLog("portal-web.docroot.html.portlet
 
 <style type="text/css">
 .image-editor-base {
-    display: inline-block;
-    position: relative;
+	display: inline-block;
+	position: relative;
 }
 
 .image-editor-base canvas {
-    display: block;
-    position: absolute;
-    top: 0;
+	display: block;
+	position: absolute;
+	top: 0;
 }
 
 .image-editor-base .image-editor-processors {
-    bottom: 0;
-    position: absolute;
-    width: 100%;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
 }
 
 .image-editor-base .image-editor-processors .image-processor-status {
-    background-color: #000000;
-    background-color: rgba(0, 0, 0, 0.4);
-    color: #FFFFFF;
+	background-color: #000000;
+	background-color: rgba(0, 0, 0, 0.4);
+	color: #FFFFFF;
 }
 
 .image-editor-base .image-processor-info, .image-editor-base .image-processor-widgets {
-    text-align: center;
+	text-align: center;
 }
 
 .image-editor-base .image-processor-swf {
-    position: absolute;
+	position: absolute;
 }
 
 .image-editor-base .image-editor-trigger-default, .image-editor-base .toolbar {
-    bottom: 10px;
-    left: 10px;
-    position: absolute;
+	bottom: 10px;
+	left: 10px;
+	position: absolute;
 }
 </style>

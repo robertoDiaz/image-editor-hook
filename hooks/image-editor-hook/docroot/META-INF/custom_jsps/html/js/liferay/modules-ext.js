@@ -4,14 +4,14 @@ var DOCUMENT = A.config.doc;
 
 var canvasTest = function() {
 	var canvas = DOCUMENT && DOCUMENT.createElement('canvas'),
-        useFlash = A.config.defaultImageEditorEngine && A.config.defaultImageEditorEngine == 'flash';
+		useFlash = A.config.defaultImageEditorEngine && A.config.defaultImageEditorEngine == 'flash';
 
-    return !useFlash && (canvas && canvas.getContext && canvas.getContext('2d'));
+	return !useFlash && (canvas && canvas.getContext && canvas.getContext('2d'));
 };
 
 var swfTest = function() {
 	var canvas = DOCUMENT && DOCUMENT.createElement('canvas'),
-    	useFlash = A.config.defaultImageEditorEngine && A.config.defaultImageEditorEngine == 'flash';
+		useFlash = A.config.defaultImageEditorEngine && A.config.defaultImageEditorEngine == 'flash';
 
 	return useFlash || !(canvas && canvas.getContext && canvas.getContext('2d'));
 };
